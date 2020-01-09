@@ -1,0 +1,8 @@
+<view>
+  <view style="padding: 20px 0">page count:{{count}}</view>
+  <button size="default" type="primary" onTap="add">add</button>
+  <button style="margin-left: 10px" size="default" type="primary" onTap="addAsync">asyncAdd</button>
+  <view style="margin-top: 30px">
+    <my-comp/>
+  </view>
+</view>

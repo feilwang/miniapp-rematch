@@ -1,0 +1,5 @@
+<view>
+  <view style="padding: 20px 0">component count:{{count}}</view>
+  <button size="default" type="primary" onTap="add">add</button>
+  <button style="margin-left: 10px" size="default" type="primary" onTap="addAsync">asyncAdd</button>
+</view>
