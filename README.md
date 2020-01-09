@@ -55,15 +55,18 @@ export default store;
 
 ### app.js
 
-```
-  const { Provider } = require("wechat-rematch")
-  const store = require('./store')
-  App(
-    Provider(store)({
-      onLaunch: function () {
-      }
-    })
-  )
+```javascript
+import { Provider } from './libs/rematch';
+import store from './store';
+
+App(
+  Provider(store)({
+    onLaunch: function () {
+      console.info('App onLaunch');
+    }
+  })
+);
+
 ```
 
 ### Page
