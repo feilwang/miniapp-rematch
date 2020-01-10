@@ -57,4 +57,4 @@ function createStore(config) {
   return store;
 }
 
-module.exports = createStore;
+export default createStore;
